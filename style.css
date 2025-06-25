@@ -1,0 +1,53 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Шапка */
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Меню */
+nav ul {
+  list-style: none;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 10;
+}
+
+nav a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+/* Основной контент */
+main {
+  padding: 20px;
+}
+
+/* Подвал */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
