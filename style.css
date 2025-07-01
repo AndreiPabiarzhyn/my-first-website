@@ -39,9 +39,46 @@ nav a:hover {
   background-color: #555;
 }
 
+nav #main1:hover {
+  background-color: #111;
+}
 /* Основной контент */
 main {
   padding: 20px;
+}
+
+a {
+  padding: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 70%;
+  margin: 5px;
+  background-color: #ddd;
+}
+
+td, th {
+  border: 0px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+p {
+  color: red;
+}
+
+h1 {
+  color: green;
+}
+
+#main1 {
+    color: #b57281;
+    background-color: #ffe4e1
 }
 
 /* Подвал */
